@@ -1,0 +1,26 @@
+
+
+Installing Arduino Libraries
+============================
+- Sketch | Include Library | Manage Libraries...
+- search and add: 'Keypad'
+- search and add: 'Encoder'
+
+
+
+
+Installing Allegro
+==================
+
+Ubuntu/mint/Raspberry Pi
+
+
+  $ sudo apt update
+  $ sudo apt install liballegro5-dev liballegro-image5-dev liballegro-ttf5-dev 
+
+
+
+If required:
+  $ sudo add-apt-repository ppa:allegro/5.2
+
+

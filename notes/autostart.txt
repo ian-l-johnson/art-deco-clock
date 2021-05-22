@@ -1,0 +1,15 @@
+auto start on boot
+------------------
+
+Create dir/file:
+    mkdir /home/pi/.config/autostart
+    vim   /home/pi/.config/autostart/clock.desktop
+
+        [Desktop Entry]
+        Type=Application
+        Name=LabClock
+        Exec=/home/pi/LabClock
+
+
+    <reboot>
+

@@ -1,0 +1,8 @@
+
+eval `ssh-agent -s`
+
+cd .ssh
+ssh-add gitlab
+
+
+
